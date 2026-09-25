@@ -64,3 +64,8 @@ details{border:2px solid var(--editorial-rule);border-radius:0}
 /* Flat visual treatment: eliminate glow, filters, and text shadows as well as box shadows. */
 *,*::before,*::after{box-shadow:none!important;filter:none!important;text-shadow:none!important}
 .verdict{background-image:none!important}
+
+/* Final border cleanup: one thin location outline and no verdict divider. */
+.locationbar{border:1px solid var(--editorial-rule)!important;border-top:1px solid var(--editorial-rule)!important;outline:0!important}
+.locationbar form{border:0!important;outline:0!important}
+.verdictfoot{border-top:0!important;padding-top:0!important}
