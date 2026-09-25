@@ -54,3 +54,13 @@ details{border:2px solid var(--editorial-rule);border-radius:0}
 
 /* Square-corner rule applies to every interactive and decorative surface. */
 *{border-radius:0!important}
+
+/* Equalize the location control border on every edge, including the top edge. */
+.locationbar{border-width:1px!important;border-style:solid!important;border-color:var(--editorial-rule)!important}
+.locationbar form{border-top:0!important;border-bottom:0!important}
+
+/* Consistent editorial kerning for uppercase display text. */
+.verdict h1,.window h2,.sectionhead h2,.eyebrow,.metrichead,.pill{letter-spacing:.05em}
+/* Flat visual treatment: eliminate glow, filters, and text shadows as well as box shadows. */
+*,*::before,*::after{box-shadow:none!important;filter:none!important;text-shadow:none!important}
+.verdict{background-image:none!important}
