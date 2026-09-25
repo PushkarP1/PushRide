@@ -35,3 +35,22 @@ details{border:2px solid var(--editorial-rule);border-radius:0}
 .window-track{border-radius:0;border:1px solid var(--editorial-rule)}
 .window-track-fill{border-radius:0}
 @media (max-width:620px){header{border-bottom:2px solid var(--editorial-rule)}.locationbar{border-radius:0}.verdict,.window,details,.feature-link{border-radius:0}.metrics article{border-radius:0}}
+
+/* Final editorial QA: one-pixel rules, square surfaces, no elevation shadows. */
+*,*::before,*::after{box-shadow:none!important}
+.locationbar,.verdict,.window,.metrics article,details,.feature-link,.support-button,.hour,#choices button,.pill,.utility button,.locate,.windowicon,.window-track,.window-track-fill,.window-track-sun{border-radius:0!important}
+.locationbar,.verdict,.window,.metrics article,details,.feature-link,.support-button,#choices button,.hour{border-width:1px}
+.locationbar{border:1px solid var(--editorial-rule)}
+.verdict{border:1px solid var(--editorial-rule)}
+.window,.metrics article,details,.feature-link,.hour{border:1px solid var(--editorial-rule)}
+.support-button.primary{border:1px solid var(--editorial-rule)}
+.utility button,.locate,.windowicon{border:1px solid var(--editorial-rule)}
+.pill{border:1px solid currentColor}
+.verdict h1,.window h2,.sectionhead h2{ text-transform:uppercase }
+#choices button{border:1px solid var(--editorial-rule);background:#fff}
+.window-track{border:1px solid var(--editorial-rule)}
+.window-track-sun{border-radius:0!important}
+@media (max-width:620px){.locationbar,.verdict,.window,details,.feature-link,.metrics article,.hour{border-radius:0!important}}
+
+/* Square-corner rule applies to every interactive and decorative surface. */
+*{border-radius:0!important}
