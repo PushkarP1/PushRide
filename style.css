@@ -6,3 +6,7 @@
 @media (min-width: 621px){#message.start-hidden + .verdict{margin-top:24px}}
 
 .footer-credit{display:block;margin-top:6px;font-size:12px}.footer-credit a{display:inline;color:var(--blue);font-size:inherit}.footer-credit a:focus-visible{outline:3px solid #8bc7ff;outline-offset:2px}
+
+/* Unit switching is available from the temperature card pencil; keep the header uncluttered. */
+.units{display:none!important}
+
