@@ -10,3 +10,12 @@
 /* Unit switching is available from the temperature card pencil; keep the header uncluttered. */
 .units{display:none!important}
 
+
+/* Visual polish: purposeful motion, status accents, and a riding-window timeline. */
+.verdict{position:relative;overflow:hidden;animation:card-in .45s ease both}
+.verdict::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:currentColor;opacity:.35}
+.verdict.good::before{background:#b7ffdf}.verdict.caution::before{background:#8c6200}.verdict.wait::before{background:#ffd0ce}.verdict.unknown::before{background:#d7ebff}
+.window{animation:card-in .45s .08s ease both}.metrics{animation:card-in .45s .16s ease both}.window-track{position:relative;height:8px;margin-top:18px;border-radius:99px;background:#cbdced;overflow:visible}.window-track-fill{position:absolute;left:18%;width:46%;height:100%;border-radius:99px;background:var(--blue)}.window-track-sun{position:absolute;left:84%;top:50%;width:12px;height:12px;border:2px solid var(--blue);border-radius:50%;background:#fff;transform:translate(-50%,-50%)}.window-track-labels{display:flex;justify-content:space-between;margin-top:7px;color:var(--muted);font-size:11px}.window-track-labels span:last-child{color:var(--blue);font-weight:700}.windowicon{transition:transform .25s ease,background .25s ease}.window:hover .windowicon{transform:rotate(-8deg) scale(1.04);background:#fff}.metrichead .icon{color:var(--blue)}
+@keyframes card-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.verdict,.window,.metrics{animation:none}.windowicon{transition:none}}
+.verdict.unknown{background:radial-gradient(circle at 86% 18%,#3f9cf0 0,transparent 28%),var(--blue)}
