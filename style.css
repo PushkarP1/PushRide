@@ -99,3 +99,7 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 }
 /* Keep verdict display headlines intentionally composed on mobile. */
 .verdict h1{white-space:pre-line;max-width:18ch}
+/* Caution card contrast and readable multi-reason copy. */
+.verdict>p{white-space:pre-line}
+.verdict.caution>p,.verdict.caution .verdictfoot strong{color:#fff}
+#message:empty{display:none}
