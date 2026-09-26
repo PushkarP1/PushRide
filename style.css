@@ -180,3 +180,7 @@ header{border-bottom:0!important}
 .verdict.caution{background-position:right center!important;color:#111820!important}
 .verdict.caution h1,.verdict.caution>p,.verdict.caution .verdictfoot,.verdict.caution .verdictfoot strong,.verdict.caution .verdicttop>span:last-child{color:#111820!important}
 
+
+/* Remove status-pill outline across all card states. */
+.verdict .pill,.verdict .pill:focus,.verdict .pill:focus-visible{border:0!important;outline:0!important;box-shadow:none!important}
+
