@@ -163,3 +163,7 @@ header{border-bottom:0!important}
 /* Start-screen vector background test */
 .verdict.unknown{background-image:url('pushride-start-vector-bg.png')!important;background-size:cover!important;background-position:center!important;color:#fff!important}
 
+
+/* Keep the start-screen rider visible in the right-side crop. */
+.verdict.unknown{background-position:right center!important}
+
