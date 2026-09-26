@@ -78,3 +78,14 @@ footer>div{display:flex;align-items:baseline;gap:10px}
 footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .footer-credit{display:inline!important;margin:0!important;font-size:12px}
 .disclaimer{margin-top:28px}
+
+/* Illustration background first pass (rollback marker: ROLLBACK-illustration-bg-pass.md). */
+.verdict{background-size:cover;background-position:center;background-repeat:no-repeat;isolation:isolate}
+.verdict::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,18,30,.46) 0%,rgba(8,18,30,.18) 48%,rgba(8,18,30,.04) 100%);z-index:-1;pointer-events:none}
+.verdict.unknown{background-image:url("pushride-bg-blue.png")!important;color:#fff}
+.verdict.good{background-image:url("pushride-bg-green.png")!important;color:#fff}
+.verdict.caution{background-image:url("pushride-bg-yellow.png")!important;color:#191d21}
+.verdict.wait{background-image:url("pushride-bg-red.png")!important;color:#fff}
+.verdict.caution::after{background:linear-gradient(90deg,rgba(255,211,50,.76) 0%,rgba(255,211,50,.34) 52%,rgba(40,28,4,.08) 100%)}
+.verdict::after{z-index:0}
+.verdict>*{position:relative;z-index:1}
