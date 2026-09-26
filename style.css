@@ -89,3 +89,5 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .verdict.caution::after{background:linear-gradient(90deg,rgba(255,211,50,.76) 0%,rgba(255,211,50,.34) 52%,rgba(40,28,4,.08) 100%)}
 .verdict::after{z-index:0}
 .verdict>*{position:relative;z-index:1}
+/* Keep the complete illustration visible inside the tall mobile verdict card. */
+.verdict{background-size:100% 100%;background-position:center;background-repeat:no-repeat}
