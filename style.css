@@ -132,3 +132,11 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 /* Softer caution vignette */
 .verdict.caution::after{background:radial-gradient(ellipse at center,rgba(120,75,8,.04) 35%,rgba(84,52,8,.14) 100%),linear-gradient(90deg,rgba(111,70,8,.12),rgba(111,70,8,.06) 58%,rgba(45,32,8,.10))}
 
+
+/* Slightly stronger caution vignette for text contrast */
+.verdict.caution::after{background:radial-gradient(ellipse at center,rgba(120,75,8,.046) 35%,rgba(84,52,8,.161) 100%),linear-gradient(90deg,rgba(111,70,8,.138),rgba(111,70,8,.069) 58%,rgba(45,32,8,.115))}
+
+
+/* Bottom-left-only caution vignette */
+.verdict.caution::after{background:radial-gradient(ellipse 72% 58% at 0% 100%,rgba(84,52,8,.18) 0%,rgba(111,70,8,.10) 42%,transparent 78%)}
+
