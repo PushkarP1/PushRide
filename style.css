@@ -167,3 +167,7 @@ header{border-bottom:0!important}
 /* Keep the start-screen rider visible in the right-side crop. */
 .verdict.unknown{background-position:right center!important}
 
+
+/* Keep the red-card motorcycle anchored on the right. */
+.verdict.wait{background-position:right center!important}
+
