@@ -97,3 +97,5 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 @media (max-width:620px){
   .verdict{background-size:cover!important;background-position:72% center!important;background-repeat:no-repeat!important}
 }
+/* Keep verdict display headlines intentionally composed on mobile. */
+.verdict h1{white-space:pre-line;max-width:18ch}
