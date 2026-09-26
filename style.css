@@ -105,3 +105,10 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .locationbar,.locationbar:focus-within{border:1px solid var(--editorial-rule)!important;border-top-width:1px!important;outline:0!important;box-shadow:none!important}
 
 
+
+/* Caution card contrast */
+.verdict.caution{color:#fff}
+.verdict.caution .pill{color:#191d21}
+.verdict.caution .verdictfoot{color:#fff;border-color:rgba(255,255,255,.35)}
+.verdict.caution>p,.verdict.caution .verdictfoot strong{color:#fff}
+
