@@ -120,3 +120,15 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .verdict.caution .pill{color:#191d21}
 .verdict.caution::after{background:transparent}
 
+
+/* Yellow card aligned with shared white-text treatment */
+.verdict.caution{color:#fff}
+.verdict.caution h1,.verdict.caution>p,.verdict.caution .verdictfoot,.verdict.caution .verdictfoot strong{color:#fff}
+.verdict.caution .verdictfoot{border-color:rgba(255,255,255,.35)}
+.verdict.caution .pill{color:#191d21}
+.verdict.caution::after{background:linear-gradient(90deg,rgba(35,24,5,.38) 0%,rgba(63,38,7,.18) 58%,rgba(20,18,8,.10) 100%)}
+
+
+/* Softer caution vignette */
+.verdict.caution::after{background:radial-gradient(ellipse at center,rgba(120,75,8,.04) 35%,rgba(84,52,8,.14) 100%),linear-gradient(90deg,rgba(111,70,8,.12),rgba(111,70,8,.06) 58%,rgba(45,32,8,.10))}
+
