@@ -140,3 +140,7 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 /* Bottom-left-only caution vignette */
 .verdict.caution::after{background:radial-gradient(ellipse 72% 58% at 0% 100%,rgba(84,52,8,.18) 0%,rgba(111,70,8,.10) 42%,transparent 78%)}
 
+
+/* Bottom-left vignette +20% */
+.verdict.caution::after{background:radial-gradient(ellipse 72% 58% at 0% 100%,rgba(84,52,8,.216) 0%,rgba(111,70,8,.12) 42%,transparent 78%)}
+
