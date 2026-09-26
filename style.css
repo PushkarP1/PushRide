@@ -72,8 +72,6 @@ details{border:2px solid var(--editorial-rule);border-radius:0}
 
 /* Final flat treatment and footer hierarchy. */
 .verdict::before{display:none!important}
-.locationbar{border:0!important;outline:1px solid var(--editorial-rule)!important}
-.locationbar:focus-within{outline:1px solid var(--editorial-rule)!important}
 footer>div{display:flex;align-items:baseline;gap:10px}
 footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .footer-credit{display:inline!important;margin:0!important;font-size:12px}
@@ -105,3 +103,5 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 #message:empty{display:none}
 /* Search bar edge normalization: keep the top line exactly 1px. */
 .locationbar,.locationbar:focus-within{border:1px solid var(--editorial-rule)!important;border-top-width:1px!important;outline:0!important;box-shadow:none!important}
+
+
