@@ -103,3 +103,5 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .verdict>p{white-space:pre-line}
 .verdict.caution>p,.verdict.caution .verdictfoot strong{color:#fff}
 #message:empty{display:none}
+/* Search bar edge normalization: keep the top line exactly 1px. */
+.locationbar,.locationbar:focus-within{border:1px solid var(--editorial-rule)!important;border-top-width:1px!important;outline:0!important;box-shadow:none!important}
