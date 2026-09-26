@@ -171,3 +171,7 @@ header{border-bottom:0!important}
 /* Keep the red-card motorcycle anchored on the right. */
 .verdict.wait{background-position:right center!important}
 
+
+/* Keep the green-card rider anchored on the right. */
+.verdict.good{background-position:right center!important}
+
