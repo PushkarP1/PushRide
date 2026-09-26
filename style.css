@@ -112,3 +112,11 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .verdict.caution .verdictfoot{color:#fff;border-color:rgba(255,255,255,.35)}
 .verdict.caution>p,.verdict.caution .verdictfoot strong{color:#fff}
 
+
+/* Yellow caution haze variant */
+.verdict.caution{color:#191d21}
+.verdict.caution>p,.verdict.caution .verdictfoot,.verdict.caution .verdictfoot strong{color:#191d21}
+.verdict.caution .verdictfoot{border-color:rgba(25,29,33,.28)}
+.verdict.caution .pill{color:#191d21}
+.verdict.caution::after{background:transparent}
+
