@@ -144,3 +144,13 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 /* Bottom-left vignette +20% */
 .verdict.caution::after{background:radial-gradient(ellipse 72% 58% at 0% 100%,rgba(84,52,8,.216) 0%,rgba(111,70,8,.12) 42%,transparent 78%)}
 
+
+/* Hide forecast status line beneath location field */
+#message{display:none!important}
+.locationbar + #choices + #message + .verdict{margin-top:24px}
+@media(max-width:620px){.locationbar + #choices + #message + .verdict{margin-top:16px}}
+
+
+/* Keep the first hourly card outlined like the rest */
+.hour:first-child{border:1px solid var(--editorial-rule)!important}
+
