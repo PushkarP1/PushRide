@@ -154,3 +154,8 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 /* Keep the first hourly card outlined like the rest */
 .hour:first-child{border:1px solid var(--editorial-rule)!important}
 
+
+/* Remove stacked header divider above search; keep one 1px location outline */
+header{border-bottom:0!important}
+.locationbar,.locationbar:focus-within{border:1px solid var(--editorial-rule)!important;border-top:1px solid var(--editorial-rule)!important;border-bottom:1px solid var(--editorial-rule)!important;outline:0!important;box-shadow:none!important}
+
