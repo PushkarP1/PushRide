@@ -175,3 +175,8 @@ header{border-bottom:0!important}
 /* Keep the green-card rider anchored on the right. */
 .verdict.good{background-position:right center!important}
 
+
+/* Keep the yellow-card rider anchored right with black readable text. */
+.verdict.caution{background-position:right center!important;color:#111820!important}
+.verdict.caution h1,.verdict.caution>p,.verdict.caution .verdictfoot,.verdict.caution .verdictfoot strong,.verdict.caution .verdicttop>span:last-child{color:#111820!important}
+
