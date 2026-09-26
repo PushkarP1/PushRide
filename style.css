@@ -91,3 +91,5 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 .verdict>*{position:relative;z-index:1}
 /* Keep the complete illustration visible inside the tall mobile verdict card. */
 .verdict{background-size:100% 100%;background-position:center;background-repeat:no-repeat}
+/* Ensure the full artwork is shown; do not crop the motorcycle subject. */
+.verdict{background-size:100% 100%!important;background-position:center center!important;background-repeat:no-repeat!important}
