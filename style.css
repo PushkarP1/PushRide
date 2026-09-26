@@ -159,3 +159,7 @@ footer>div>span:first-child{font-weight:800;color:var(--ink)}
 header{border-bottom:0!important}
 .locationbar,.locationbar:focus-within{border:1px solid var(--editorial-rule)!important;border-top:1px solid var(--editorial-rule)!important;border-bottom:1px solid var(--editorial-rule)!important;outline:0!important;box-shadow:none!important}
 
+
+/* Start-screen vector background test */
+.verdict.unknown{background-image:url('pushride-start-vector-bg.png')!important;background-size:cover!important;background-position:center!important;color:#fff!important}
+

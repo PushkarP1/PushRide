@@ -29,3 +29,7 @@ $('unitToggle').onclick=()=>{imperial=!imperial;localStorage.setItem('pushride-u
 
 
 
+
+// Tapping the selected location field enters edit mode and forgets the saved location.
+document.getElementById('city').addEventListener('pointerdown',()=>{if(document.getElementById('searchform').classList.contains('location-selected'))resetLocation()});
+
